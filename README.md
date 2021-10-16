@@ -20,9 +20,13 @@ Choose both, make a pull request for your work and wait for it to be merged!!
 # Getting started
 - Fork this repository (Click the Fork button on the top right of this page, click your Profile Image)
 - Clone your forked down repository to your local machine.
-```git clone https://github.com/yourusername/push-it-hacktoberfest```
+```
+git clone https://github.com/yourusername/push-it-hacktoberfest
+```
 - Create a branch
-```git checkout -b your-branch-name```
+```
+git checkout -b your-branch-name
+```
 - Make your changes.
 - Commit and push your code.
 ```
