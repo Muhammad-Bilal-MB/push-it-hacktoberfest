@@ -1,7 +1,8 @@
 # push-it-hacktoberfest
 This repository is totally dedicated to Hacktoberfest 2021, feel free to add your project.
 
-![Hacktoberfest](https://hacktoberfest.digitalocean.com/)
+[![Hacktoberfest-2021](https://user-images.githubusercontent.com/69968468/137584091-859dc875-4228-4a52-9afd-c9bc2f6206b7.png)](https://hacktoberfest.digitalocean.com/)
+
 # HacktoberFest21
 Hello Hackers, Contributors! HacktoberFest has begun again for year 2021, and everyone's excited to get started! Contribute between:
 
