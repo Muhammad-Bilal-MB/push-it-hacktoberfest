@@ -1,0 +1,2 @@
+false-Mouse-computer Items-120.0-COMPUTER -Pickup-132.0-1
+true-Shorts-Men's Wear-200.0-MEN CLOTHING-Delivery-220.0-1
