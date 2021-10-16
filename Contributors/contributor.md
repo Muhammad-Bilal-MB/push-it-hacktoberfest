@@ -1,8 +1,7 @@
-##### Name: *Your name here!*
+##### Name: _Malhar!_
 
-##### Email: *Your email here!*
+##### Email: *malharsoomro2@gmail.com!*
 
-##### Github Username: *[Your Github username here!](Github account link)*
+##### Github Username: _[Malhar-Soomro!](https://github.com/Malhar-Soomro)_
 
-##### Your Favourite Langugage: *Your favourite langauge here!*
-
+##### Your Favourite Langugage: _JavaScript!_
