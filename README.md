@@ -14,7 +14,7 @@ Create a Pull request and add any feature update to the repository.
 Here are 2 quick and painless ways to contribute to this project:
 
 - Add your source file of Python, C++, Java, html, C# or any other language program in respective directory.
-- Add your details to the `Contributors.md` file in `Contributors` folder (Follow the template and don't remove any brackets from the template).
+- Add your details following template of `Contributors.md` file in `Contributors` folder. Make a new `.md` file with your name. (Follow the template and don't remove any brackets from the template).
 Choose both, make a pull request for your work and wait for it to be merged!!
 
 # Getting started
