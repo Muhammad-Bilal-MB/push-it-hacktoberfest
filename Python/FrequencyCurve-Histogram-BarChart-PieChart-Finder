@@ -1,0 +1,41 @@
+from matplotlib import pyplot as plt
+plt.style.use("fivethirtyeight")
+
+def visualize(data,frequencymarks ):
+    plt.hist(data, bins=frequencymarks, edgecolor = "white", color = "green")
+    plt.title("MARKS OF STUDENTS")
+    plt.xlabel("MARKS")
+    plt.ylabel("frequency")
+    plt.show()
+def pievisualize(grades,frequency):
+    plt.title("Pie chart ")
+    plt.pie(frequency, labels=grades, autopct='%0.1f%%')
+    plt.show()
+def livisualize(grades,frequency):
+    plt.title("Line chart ")
+    plt.plot(grades, frequency, color='green')
+    plt.xlabel("grades")
+    plt.ylabel("Numbers")
+    plt.show()
+def barvisualize(grades,frequency):
+    plt.title("Bar Chart")
+    plt.bar(grades,frequency,color='green')
+    plt.xlabel("grades")
+    plt.ylabel("Numbers")
+    plt.show()
+
+if _name_ == '_main_':
+    marks = [481, 402, 451, 456, 390, 452, 437, 416, 455, 433, 467, 420, 441, 366, 436, 483, 433,
+             481, 386, 374, 373, 415, 453, 427, 461, 487, 470, 476, 462, 415, 369, 464, 484, 451,
+             453, 429, 444, 504, 477, 466, 485, 427, 420, 451, 462, 400, 465, 486, 431, 490, 471,
+             396, 485, 411, 505, 430, 421, 450, 477, 442, 410, 369, 432, 447, 440, 418, 462, 442,
+             443, 471, 394, 444, 486, 478, 460, 462, 426, 476, 386, 370, 418, 416, 425, 410, 341,
+             371, 389, 366, 345, 404, 407, 380, 436, 439, 403, 435, 402, 395, 389, 376, 449, 422, 432,
+             404, 367, 443, 367, 418, 400, 350, 412, 338, 361, 308, 314, 365, 331, 320]
+    grades=["A","B","C","D","E","F"]
+    frequencymarks=[308,310,312,314,316,318,320,322,324,326,328,330,332,334,336,338,340,342,344,346,348,350,352,354,356,358,360,362,364,366,368,370,372,374,376,378,380,382,384,386,388,390,392,394,396,398,400,402,404,406,408,410,412,414,416,418,420,422,424,426,428,430,432,434,436,438,440,442,444,446,448,450,452,454,456,458,460,462,464,466,468,470,472,474,476,478,480,482,484,486,488,490,492,494,496,498,500,502,504,506,506,508]
+    frequency=[41,27,6,1,5,8]
+    visualize(marks, frequencymarks)
+    pievisualize(grades, frequency)
+    barvisualize(grades, frequency)
+    livisualize(grades, frequency)
