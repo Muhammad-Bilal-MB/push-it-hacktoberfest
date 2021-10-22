@@ -1,0 +1,159 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+.main {
+    width: 100%;
+    height: 100%;
+}
+
+/* Navbar */
+nav {
+    height: 8vh;
+    width: 100%;
+    background-color: brown;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    box-shadow: 0px 5px 20px grey;
+}
+nav i, nav span {
+    font-size: 30px;
+    font-weight: 800;
+    color: white;
+    margin-left: 15px;
+}
+
+
+/* Body */
+.body {
+    background-image: linear-gradient(to right, #fff95b, #ff930f);
+    width: 100%;
+    height: 92vh;
+}
+
+/* Todo input */
+.todo-input {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.todo-input input, .todo-input button {
+    padding: 5px;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    transition: 0.3s transform ease;
+}
+.todo-input .add-todo {
+    background-color: white;
+    color: #ff930f;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.todo-input .add-todo:hover {
+    background-color: #ff930f;
+    color: white;
+}
+.todo-input i {
+    transition: 0.3s ease;
+}
+.todo-input button:hover i {
+    transform: scale(1.2);
+}
+
+.todo-input .del-all {
+    background-color: white;
+    color: red;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.todo-input .del-all:hover {
+    background-color: red;
+    color: white;
+}
+
+
+/* Todo list */
+.todo-div {
+    width: 100%;
+    height: 72vh;
+    padding: 30px;
+}
+.todo-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* New Todo */
+.new-todo {
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s ease;
+}
+.todo {
+    width: 250px;
+    background-color: white;
+    padding: 4px 10px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid blue !important;
+    transition: 0.6s ease;
+}
+.new-todo button {
+    padding: 5px 10px; 
+    border: none;
+    outline: none;
+}
+/* edit btn */
+.edit-btn {
+    background-color: white;
+    color: green;
+    cursor: pointer;
+}
+.edit-btn:hover {
+    color: white;
+    background-color: green;
+}
+.edit-btn i {
+    transition: 0.3s ease;
+    pointer-events: none;
+}
+.edit-btn:hover i {
+    transform: scale(1.1);
+}
+/* del btn */
+.del-btn {
+    background-color: white;
+    color: red;
+    cursor: pointer;
+}
+.del-btn:hover {
+    color: white;
+    background-color: red;
+}
+.del-btn i {
+    transition: 0.3s ease;
+    pointer-events: none;
+}
+.del-btn:hover i {
+    transform: scale(1.1);
+}
+
+/* new-todo animation */
+.fall {
+    transform: translateY(8rem) rotate(20deg);
+    opacity: 0;
+}
+
+/* for centering todo */
+.center {
+    padding: 4px 70px;
+}
