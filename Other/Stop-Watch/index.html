@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StopWatch</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div id="main" class="main">
+        <div class="heading">
+            <h1>StopWatch</h1>
+
+        </div>
+        <div class="stop-watch">
+            <div class="theme">
+                <button class="active theme-button" id="light-theme" onclick="lightTheme()">Light</button>
+                <button class="theme-button" id="dark-theme" onclick="darkTheme()">Dark</button>
+            </div>
+            <div id="border" class="border">
+                <div class="hour">00</div>
+                <div class="colon">:</div>
+                <div class="min">00</div>
+                <div class="colon">:</div>
+                <div id="sec" class="sec">00</div>
+                <div id="msec" class="msec">00</div>
+            </div>
+        </div>
+        <div class="lap">
+            <div>
+                <ul class="lap-list">
+
+                </ul>
+            </div>
+        </div>
+        <div class="btn">
+            <button id="reset" class="bottom-btn" onclick="rst()">Reset</button>
+            <button class="start-stop" onclick="playPause()"><i class="fa fa-play" aria-hidden="true"></i></button>
+            <button id="lap-btn" class="bottom-btn" onclick="lap()">Lap</button>
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+
+</html>
