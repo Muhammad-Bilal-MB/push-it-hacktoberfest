@@ -1,7 +1,7 @@
-**Name:** Jyesh Batra
+**Name:** **Jyesh Batra**
 
-**Email:** jyeshbatra787@gmail.com
+**Email:** **jyeshbatra787@gmail.com**
 
-**Github Username:** JyeshBatra
+**Github Username:** **JyeshBatra**
 
-**Your Favourite Langugage:** Python and C++
+**Your Favourite Langugage:** **Python and C++**
